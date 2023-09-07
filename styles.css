@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+ *{
+    font-family: 'Roboto', sans-serif;
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+}
+
+/* Intro Section */
+#intro {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+#intro h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+#intro p {
+    font-size: 18px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#intro a{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cta-button {
+    display: inline-flex; 
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #f2f20a;
+    color: #0b0b0b;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    font-weight: 300;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #00408a;
+    color: #f3f3f3;
+}
+
+.ctb-button {
+    display: inline-flex; 
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: #f2f20a;
+    color: #0b0b0b;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    font-weight: 300;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.ctb-button:hover {
+    background-color: #00408a;
+    color: #f3f3f3;
+}
+
+
+/* Feature Section */
+#features {
+    padding: 50px 0;
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.feature h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    text-align: center;
+}
+.feature p{
+    text-align: center;
+}
+
+/* About Section */
+#about {
+    background-color: #fff;
+    padding: 50px 0;
+}
+
+#about h2 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+#about p {  
+    font-size: 15px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.team-members {
+    margin-top: 20px;
+}
+
+.member {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 20px; */
+    font-size: 16px;
+    align-items: center;
+}
+
+.member a {
+    text-decoration: none;
+    color: #007BFF;
+    margin: 0 10px;
+}
+
+.member a:hover {
+    text-decoration: underline;
+}
+
+/* Optional Section */
+#optional {
+    padding: 50px 0;
+}
+
+
+
+/* Media Query for Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    #intro {
+        padding: 20px 0;
+    }
+    #intro h1 {
+        font-size: 28px;
+    }
+    #intro p {
+        font-size: 16px;
+    }
+    .feature h2 {
+        font-size: 20px;
+    }
+    .feature p {
+        font-size: 16px;
+    }
+    #about h2 {
+        font-size: 24px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+}
