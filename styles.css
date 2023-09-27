@@ -37,7 +37,7 @@
 }
 
 .cta-button {
-    display: inline-flex; 
+    display: flex; 
     padding: 10px 20px;
     font-size: 15px;
     background-color: #f2f20a;
@@ -49,6 +49,7 @@
     justify-content: center; 
     align-items: center; 
     text-align: center;
+    flex-direction:column;
 }
 
 .cta-button:hover {
@@ -57,7 +58,7 @@
 }
 
 .ctb-button {
-    display: inline-flex; 
+    display: flex; 
     padding: 10px 20px;
     font-size: 15px;
     background-color: #f2f20a;
@@ -69,6 +70,7 @@
     justify-content: center; 
     align-items: center; 
     text-align: center;
+    flex-direction:column;
 }
 
 .ctb-button:hover {
